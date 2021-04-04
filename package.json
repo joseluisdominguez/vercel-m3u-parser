@@ -15,6 +15,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "iptv-playlist-parser": "^0.6.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "string-to-stream": "^3.0.1"
   }
 }
