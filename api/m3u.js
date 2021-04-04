@@ -5,7 +5,7 @@ const { filter, forEach } = require('lodash');
 
 module.exports = async (req, res) => {
     const { type = '04 FUTBOL' } = req.query;
-    let text = '';
+    let text = '#EXTM3U\r\n';
 
     try {
         const dataM3u = await axios.get(process.env.URL);
